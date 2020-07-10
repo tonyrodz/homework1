@@ -1,0 +1,58 @@
+body{
+    width: 960px;
+    color: blueviolet;
+    background: black;
+    font-size: 18px;
+    margin: auto;
+    line-height: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header,
+nav,
+section,
+aside,
+footer{
+    display: block;
+    text-align: center;
+    background: gold;
+    padding: 10px;
+    margin: 10px;
+}
+
+section{
+    display: block;
+    width: 490px;
+    height: 250px;
+    overflow: hidden;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+aside{
+    display: block;
+    width: 40%;
+    height: 250px;
+    overflow: hidden;
+    float: right;
+}
+
+article{
+    background: black;
+    padding: 10px;
+    color: blueviolet;
+}
+
+h1,
+p{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background: black;
+    color: blueviolet;
+
+}
